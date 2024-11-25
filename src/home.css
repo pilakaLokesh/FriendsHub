@@ -1,0 +1,38 @@
+.ul-list{
+    display: flex;
+    flex-grow: inherit;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.signout-button {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 20px;
+  }
+  
+  .signout-button:hover {
+    background: linear-gradient(90deg, #ee0979, #ff6a00);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .signout-button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(90deg, #d85d00, #cc0869);
+  }
+  
+  .signout-button:focus {
+    outline: none;
+    border: 2px solid #ff6a00;
+  }
+  
